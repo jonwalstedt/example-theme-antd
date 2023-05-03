@@ -1,0 +1,30 @@
+{
+  "name": "example-theme-antd",
+  "version": "1.0.0",
+  "description": "Example of a custom theme that gets published in its own package",
+  "main": "./dist/esm/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonwalstedt/example-theme-antd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonwalstedt/example-theme-antd/issues"
+  },
+  "homepage": "https://github.com/jonwalstedt/example-theme-antd#readme",
+  "peerDependencies": {
+    "antd": "^5.4.6",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "antd": "^5.4.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.4"
+  }
+}
